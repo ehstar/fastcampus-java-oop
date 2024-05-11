@@ -9,5 +9,8 @@ public class Main {
 
         Sort<String> sort = new JavaSortTest<>();
 
+        System.out.println(sort.sort(List.of("3", "2", "5", "4", "1")));
+
+
     }
 }
